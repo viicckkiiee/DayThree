@@ -11,6 +11,8 @@ public class DayTwo {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("www.facebook.com");
+	//New
+		String title = driver.getTitle();
 	}
 
 }
