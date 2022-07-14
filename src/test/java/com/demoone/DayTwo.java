@@ -12,7 +12,7 @@ public class DayTwo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("www.facebook.com");
 	//New
-		String title = driver.getTitle();
+		driver.get("www.facebook.com");
 	}
 
 }
